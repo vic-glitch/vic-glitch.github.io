@@ -1,0 +1,163 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para el header */
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: space-between; /* Espacia el logo y el menú */
+}
+
+.logo {
+    width: 150px; /* Tamaño inicial del logo */
+    height: auto;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center; /* Centra el menú horizontalmente */
+    flex-grow: 1; /* Permite que el menú ocupe todo el espacio disponible */
+}
+
+
+/* Estilos para las imágenes en lista */
+.image-list {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.image-list img {
+    width: 200px; /* Tamaño inicial de las imágenes */
+    height: auto;
+    cursor: pointer;
+}
+
+/* Efecto de hover para el logo y las imágenes */
+.logo:hover, .image-list img:hover {
+    opacity: 0.8;
+}
+
+#ubicacion {
+    text-align: center;
+    margin-top: 10px;
+    padding-left: 10px; /* Opcional: agrega un margen desde el borde derecho */
+}
+
+.map-image {
+    width: 300px; /* Ajusta el tamaño del mapa aquí */
+    height: auto;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+#historia {
+    max-width: 600px; /* Ajusta el ancho del recuadro */
+    margin: 20px auto; /* Centra el recuadro */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#historia h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+#historia p {
+    color: #666;
+    line-height: 1.6;
+}
+
+#Misión {
+    max-width: 600px; /* Ajusta el ancho del recuadro */
+    margin: 20px auto; /* Centra el recuadro */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#Misión h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+#Misión p {
+    color: #666;
+    line-height: 1.6;
+}
+
+#Visión {
+    max-width: 600px; /* Ajusta el ancho del recuadro */
+    margin: 20px auto; /* Centra el recuadro */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#Visión h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+#Visión p {
+    color: #666;
+    line-height: 1.6;
+}
+
+body {
+    background-color: #d0ece7; 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333; /* Color de fondo del pie de página */
+    color: white;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.icono-red-social {
+    width: 40px; /* Tamaño de los íconos */
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s; /* Animación de hover */
+}
+
+.icono-red-social:hover {
+    transform: scale(1.2); /* Agranda el icono al pasar el ratón */
+}
